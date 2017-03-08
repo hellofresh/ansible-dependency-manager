@@ -1,0 +1,19 @@
+dependencies:
+- name: inventory-refresh
+  src: git+https://github.com/AutomationWIthAnsible/inventory-refresh.git
+  tags:
+  - always
+- name: hostname
+  src: git+https://github.com/AutomationWIthAnsible/ansible-hostname.git
+  tags:
+  - hostname
+  version: v0.4.1
+- name: hf-users
+  src: git+git@github.com:hellofresh/hf-users.git
+  tags:
+  - users
+  version: 0.0.31
+other_data:
+- data1
+- data2
+- data3
