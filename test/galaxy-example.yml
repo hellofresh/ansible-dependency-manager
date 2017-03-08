@@ -1,0 +1,9 @@
+- name: apt
+  src: git+https://github.com/AutomationWIthAnsible/ansible-apt.git
+  version: v0.3.1
+- name: android-sdk
+  src: git+https://github.com/nickpack/ansible-role-android-sdk.git
+  version: v0.0.4
+- name: ansible-dockerhost
+  src: git+https://github.com/hellofresh/ansible-dockerhost.git
+  version: v0.2.0
